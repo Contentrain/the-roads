@@ -2,7 +2,14 @@
   {
     "ID": "2b82b88f-46b4-4dae-a64e-ec35e846bb8d",
     "logo": "static/1658752569587_logo.svg",
-    "links": [],
+    "links": [
+      {
+        "ID": "2975659a-95ac-4108-bbb6-b7f73e27929a",
+        "icon": "ri-github-fill",
+        "link": "https://github.com/Contentrain",
+        "createdAt": 1658752591094
+      }
+    ],
     "createdAt": 1658752571085
   }
 ]
