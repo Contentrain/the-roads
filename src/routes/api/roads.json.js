@@ -4,10 +4,12 @@ export async function GET() {
   const iterablePostFiles = Object.entries(roads)
   const allRoads = await Promise.all(
     iterablePostFiles.map(async ([path, resolver]) => {
-      const { metadata } = await resolver()
+      const res = await resolver()
+      const { metadata } = res
       return {
         ...metadata,
         path,
+        content: res.default.render()
       }
     })
   )

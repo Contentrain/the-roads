@@ -5,3 +5,4 @@ export const allMaps = writable([]);
 export const activeMap = writable();
 export const years = writable([]);
 export const activeYear = writable();
+export const headerData = writable();

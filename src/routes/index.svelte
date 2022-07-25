@@ -11,6 +11,8 @@
       arr = [...new Set(arr)].sort((a, b) => b - a);
       years.set(arr)
     })
+    const data = await fetch("/api/header.json");
+    headerData.set(await data.json())
     return {
       props: {
         roads: allRoads,
@@ -25,7 +27,7 @@
   import "../app.css";
   import Header from "$lib/components/Header.svelte";
   import MapList from "$lib/components/MapList.svelte";
-  import { sidebarStatus, activeMap, allMaps, years } from "$lib/stores.js";
+  import { sidebarStatus, activeMap, allMaps, years, headerData } from "$lib/stores.js";
   let sidebar = true;
   let sidebarData = {};
 
@@ -105,7 +107,7 @@
         {sidebarData.title}
       </h1>
       <p class="mt-4 text-slate-500 text-sm">
-        {sidebarData.content}
+        {@html sidebarData.content.html}
       </p>
       <ul class="list-none mt-8">
         {#each sidebarData.list as item}

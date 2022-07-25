@@ -23,7 +23,7 @@
   });
   activeYear.set($years[0]);
   const changeSidebarData = (event) => {
-    const map = $allMaps.find((map) => map.id === event.detail);
+    const map = $allMaps.find((map) => map.ID === event.detail);
     activeMap.set(map);
     sidebarStatus.set(true);
   };
@@ -97,7 +97,7 @@
                     content={item.description}
                     date={item.date}
                     icon={item.icon}
-                    id={item.id}
+                    id={item.ID}
                     on:ID={changeSidebarData}
                   />
                   <div
@@ -126,7 +126,7 @@
                     content={item.description}
                     date={item.date}
                     icon={item.icon}
-                    id={item.id}
+                    id={item.ID}
                     on:ID={changeSidebarData}
                   />
                   <div
