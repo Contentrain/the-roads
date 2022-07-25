@@ -46,7 +46,14 @@
       "title": "developer",
       "createdAt": 1658755382377
     },
-    "list": [],
+    "list": [
+      {
+        "ID": "aaa974bd-e268-4fb3-8be0-90d7570c8b68",
+        "check": true,
+        "content": "mvp",
+        "createdAt": 1658755398961
+      }
+    ],
     "createdAt": 1658755317691,
     "updatedAt": 1658755364470
   }
