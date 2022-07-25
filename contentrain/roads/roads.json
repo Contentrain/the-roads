@@ -96,7 +96,13 @@
     "progress": true,
     "status": "In progress",
     "date": "2022-05-02",
-    "author": [],
+    "author": {
+      "ID": "57974bd8-9537-456c-952b-e3287a117fbc",
+      "name": "Serkan",
+      "image": "https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/a0c773e6-5f3f-42e6-cc17-814a7cca6a00/public",
+      "title": "Developer",
+      "createdAt": 1658755925243
+    },
     "list": [],
     "createdAt": 1658755894517
   }
