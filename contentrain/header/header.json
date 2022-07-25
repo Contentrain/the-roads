@@ -8,6 +8,12 @@
         "icon": "ri-github-fill",
         "link": "https://github.com/Contentrain",
         "createdAt": 1658752591094
+      },
+      {
+        "ID": "47e2f4cc-a5cf-4e63-92fc-74a5840eaf81",
+        "icon": "ri-linkedin-box-fill",
+        "link": "https://www.linkedin.com/company/contentrain/",
+        "createdAt": 1658752642023
       }
     ],
     "createdAt": 1658752571085
