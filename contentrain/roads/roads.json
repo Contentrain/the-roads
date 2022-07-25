@@ -84,5 +84,20 @@
       }
     ],
     "createdAt": 1658755573204
+  },
+  {
+    "description": "2020 yılında kurulup beta sürüme çıkıldı. 2021 yılında kapalı beta sürümüne geçti. Daha sonra 2022 yılında açık betaya geçti\n\n",
+    "content": "Live Public Beta in 2022\n2020 yılında kurulup beta sürüme çıkıldı. 2021 yılında kapalı beta sürümüne geçti\n",
+    "slug": "4",
+    "title": "Live Public Beta in 2022",
+    "ID": "34aa060c-51b2-47c2-9574-90bbedadd196",
+    "icon": "ri-shopping-bag-2-fill",
+    "coverUrl": "static/1658755849060_rvGfhtTKBENYjmtaTkF5oZ-1200-80.jpg.webp",
+    "progress": true,
+    "status": "In progress",
+    "date": "2022-05-02",
+    "author": [],
+    "list": [],
+    "createdAt": 1658755894517
   }
 ]
