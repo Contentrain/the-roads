@@ -20,6 +20,12 @@
         "icon": "ri-twitter-fill",
         "link": "https://twitter.com/contentrain_io",
         "createdAt": 1658752657467
+      },
+      {
+        "ID": "09b9ba2c-662a-4f72-822f-97685628bec4",
+        "icon": "ri-discord-fill",
+        "link": "https://discord.com/invite/4db2PjWYtG",
+        "createdAt": 1658752667567
       }
     ],
     "createdAt": 1658752571085
