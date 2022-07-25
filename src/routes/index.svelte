@@ -137,7 +137,7 @@
       <div class="mt-8 flex">
         <img
           class="rounded-full w-12 h-12"
-          src={sidebarData.author.image.split("static")[1]}
+          src={sidebarData.author.image}
           alt={sidebarData.author.name}
         />
         <div class="ml-1">

@@ -77,9 +77,9 @@
       class="absolute w-px h-full transform -translate-x-1/2 bg-slate-200  left-1/2"
     />
     <div class="space-y-12 lg:space-y-8 flex flex-col">
-      {#each $years as year}
+      {#each $years as year, index}
         {#each cards[year] as item, i}
-          {#if i % 2 === 0}
+          {#if (i + index) % 2 === 0}
             <!-- Left section -->
             <div
               id={i === 0 ? year : year + "_" + i}
