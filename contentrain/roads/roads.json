@@ -56,5 +56,20 @@
     ],
     "createdAt": 1658755317691,
     "updatedAt": 1658755431372
+  },
+  {
+    "description": "2020 yılında kurulup beta sürüme çıkıldı. 2021 yılında kapalı beta sürümüne geçti",
+    "content": "2020 yılında kurulup beta sürüme çıkıldı. 2021 yılında kapalı beta sürümüne geçti",
+    "slug": "3",
+    "title": "Live Private Beta 2021",
+    "ID": "10783cad-2e6b-4106-a67b-efda00d6b7ab",
+    "icon": "ri-scan-fill",
+    "coverUrl": "static/1658755538160_1656856442674_photo_2022-07-03 16.53.39.jpeg",
+    "progress": false,
+    "status": "Finished",
+    "date": "2021-10-09",
+    "author": [],
+    "list": [],
+    "createdAt": 1658755573204
   }
 ]
