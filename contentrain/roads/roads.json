@@ -34,7 +34,7 @@
     "slug": "2",
     "title": "Launch MVP in 2020",
     "ID": "72a3fedb-3f15-4dc4-a5b7-f56996c9fcbe",
-    "icon": "Contentrain 2020 yılında kuruldu ve aynı yıl beta sürüme geçti.",
+    "icon": "ri-time-fill",
     "coverUrl": "static/1658755296357_1656856442674_photo_2022-07-03 16.53.39.jpeg",
     "progress": false,
     "status": "Finished",
@@ -55,6 +55,6 @@
       }
     ],
     "createdAt": 1658755317691,
-    "updatedAt": 1658755364470
+    "updatedAt": 1658755431372
   }
 ]
