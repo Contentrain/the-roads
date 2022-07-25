@@ -75,7 +75,14 @@
       "title": "developer",
       "createdAt": 1658755595960
     },
-    "list": [],
+    "list": [
+      {
+        "ID": "a69bf7ef-2410-45a6-a483-47d7f094d99f",
+        "check": true,
+        "content": "private beta",
+        "createdAt": 1658755617782
+      }
+    ],
     "createdAt": 1658755573204
   }
 ]
