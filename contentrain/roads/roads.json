@@ -45,7 +45,13 @@
     "progress": false,
     "status": "Finished",
     "date": "2020-05-07",
-    "author": [],
+    "author": {
+      "ID": "f8e3f7cb-d780-4e10-8725-65286995212f",
+      "name": "serkan",
+      "image": "static/1658754038476_Aziz_Sancar_0060.jpg",
+      "title": "Developer",
+      "createdAt": 1658754043917
+    },
     "list": [],
     "createdAt": 1658753988546
   }
