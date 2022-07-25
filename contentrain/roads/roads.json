@@ -10,7 +10,13 @@
     "progress": false,
     "status": "Finshed",
     "date": "2020-01-01",
-    "author": [],
+    "author": {
+      "ID": "7e1a3367-d530-4f42-bd6b-5a022191820a",
+      "name": "Serkan",
+      "image": "https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/a0c773e6-5f3f-42e6-cc17-814a7cca6a00/public",
+      "title": "Developer",
+      "createdAt": 1658754854290
+    },
     "list": [],
     "createdAt": 1658754723866
   }
