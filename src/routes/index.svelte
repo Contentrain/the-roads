@@ -91,7 +91,7 @@
       <div class="grid grid-cols-12 w-full mt-4">
         <div class="text-slate-500 col-span-6">Date:</div>
         <div
-          class="lg:col-span-6 justify-self-start bg-slate-200 text-slate-700 text-sm rounded-md text-center border-solid border border-slate-300	px-2 py-1"
+          class="col-span-6 justify-self-start bg-slate-200 text-slate-700 text-sm rounded-md text-center border-solid border border-slate-300	px-2 py-1"
         >
           {sidebarData.date}
         </div>

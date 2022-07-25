@@ -14,9 +14,9 @@
 </script>
 
 <header class="border-b border-slate-200 px-[48px] py-[24px]">
-  <div class="flex justify-between">
-    <div class="">
-      <img src={$headerData[0].logo.split('static')[1]} alt="logo" />
+  <div class="flex justify-between items-center">
+    <div>
+      <img width="150" src={$headerData[0].logo.split('static')[1]} alt="logo" />
     </div>
     <div class="justify-items-end">
       <div class="text-sky-500 text-xl hidden lg:block">
