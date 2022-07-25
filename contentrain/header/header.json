@@ -14,6 +14,12 @@
         "icon": "ri-linkedin-box-fill",
         "link": "https://www.linkedin.com/company/contentrain/",
         "createdAt": 1658752642023
+      },
+      {
+        "ID": "6dac6287-6465-432e-857f-23f1d88ff438",
+        "icon": "ri-twitter-fill",
+        "link": "https://twitter.com/contentrain_io",
+        "createdAt": 1658752657467
       }
     ],
     "createdAt": 1658752571085
