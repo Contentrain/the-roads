@@ -85,7 +85,7 @@
         <div class="text-slate-500 col-span-6">Type:</div>
         <div class="flex items-center col-span-6 justify-self-start">
           <span class="w-2 h-2 rounded-full bg-green-500	" />
-          <span class="ml-1 text-slate-500"> Feature </span>
+          <span class="ml-1 text-slate-500"> {sidebarData.type} </span>
         </div>
       </div>
       <div class="grid grid-cols-12 w-full mt-4">
