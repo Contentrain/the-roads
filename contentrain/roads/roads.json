@@ -1,9 +1,9 @@
 [
   {
-    "content": " Vcontentrain 2020 yılında kuruldu ve aynı yıl beta sürüme geçti.",
+    "content": "Contentrain 2020 yılında kuruldu ve aynı yıl beta sürüme geçti.",
     "ID": "fb26ccb8-8017-45a8-9028-e2f3097c833e",
     "title": "Found in 2020",
-    "description": " Vcontentrain 2020 yılında kuruldu ve aynı yıl beta sürüme geçti.",
+    "description": " Contentrain 2020 yılında kuruldu ve aynı yıl beta sürüme geçti.",
     "slug": "1",
     "icon": "ri-code-box-fill",
     "coverUrl": "static/1658754996827_rvGfhtTKBENYjmtaTkF5oZ-1200-80.jpg.webp",
@@ -19,6 +19,6 @@
     },
     "list": [],
     "createdAt": 1658754723866,
-    "updatedAt": 1658755118079
+    "updatedAt": 1658755135473
   }
 ]
