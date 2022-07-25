@@ -85,7 +85,9 @@
         "createdAt": 1658755617782
       }
     ],
-    "createdAt": 1658755573204
+    "createdAt": 1658755573204,
+    "type": "Feature",
+    "updatedAt": 1658756319948
   },
   {
     "description": "2020 yılında kurulup beta sürüme çıkıldı. 2021 yılında kapalı beta sürümüne geçti. Daha sonra 2022 yılında açık betaya geçti\n\n",
