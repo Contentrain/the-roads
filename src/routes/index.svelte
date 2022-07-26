@@ -46,18 +46,18 @@
   <div
     class={!sidebar
       ? "lg:col-span-12 col-span-12 border-r border-slate-200"
-      : "lg:col-span-9 col-span-12 border-r border-slate-200"}
+      : "lg:col-span-8 col-span-12 border-r border-slate-200"}
   >
     <Header />
     <div class="w-full flex">
-      <div class="flex-1 container mx-auto px-[48px]">
+      <div class="flex-1 container mx-auto px-10">
         <MapList />
       </div>
     </div>
   </div>
   <div
     class={sidebar === true
-      ? "drop-shadow-2xl lg:drop-shadow-none bg-slate-50 p-9 lg:col-span-3 fixed right-0 z-50 w-[85%] lg:w-[25%] h-full overflow-y-scroll"
+      ? "drop-shadow-2xl lg:drop-shadow-none bg-slate-50 p-9 lg:col-span-3 fixed right-0 z-50 w-[85%] lg:w-[33.33%] h-full overflow-y-scroll"
       : "hidden"}
   >
     <div class="float-right">
@@ -97,13 +97,13 @@
         </div>
       </div>
     </div>
-    <div class="mt-8">
-      <div
+    <div class="mt-10">
+      <!-- <div
         class="w-10 h-10 rounded-full bg-sky-500 text-white flex justify-center items-center text-xl"
       >
         <i class={sidebarData.icon} />
-      </div>
-      <h1 class="text-lg text-slate-700 font-semibold mt-4">
+      </div> -->
+      <h1 class="text-xl text-slate-700 font-semibold mt-4">
         {sidebarData.title}
       </h1>
       <p class="mt-2 text-slate-500 text-sm">
@@ -136,11 +136,11 @@
       </div>
       <div class="mt-8 flex">
         <img
-          class="rounded-full w-12 h-12"
+          class="rounded-full w-12 h-12 border-2 border-white	"
           src={sidebarData.author.image}
           alt={sidebarData.author.name}
         />
-        <div class="ml-1">
+        <div class="ml-4">
           <p>
             {sidebarData.author.name}
           </p>

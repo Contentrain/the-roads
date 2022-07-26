@@ -8,3 +8,6 @@
     overflow: hidden;
     text-overflow: ellipsis; 
 }
+body {
+    font-family: 'Urbanist', sans-serif;
+}

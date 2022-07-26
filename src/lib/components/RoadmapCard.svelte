@@ -15,7 +15,7 @@ import { createEventDispatcher } from "svelte";
   const cardClasses = {
     container: "w-full border-solid border border-slate-200 rounded-2xl p-8 bg-white",
     badge: "w-[36px] h-[36px] bg-sky-50 rounded-full text-sky-500 flex items-center justify-center",
-    title: "font-semibold mt-4 text-slate-700 text-lg",
+    title: "font-semibold mt-4 text-slate-700 text-xl",
     content: "text-slate-500 text-[14px] mt-4 ellipsis-2",
 };
 </script>
@@ -28,10 +28,8 @@ import { createEventDispatcher } from "svelte";
       {content}
       </p>
       <div class="flex justify-between mt-6">
-        <div class="bg-slate-200 px-3 py-1 rounded-md">
-            <span class="text-[12px]">
+        <div class="bg-slate-200 text-slate-700 text-sm rounded-md text-center border-solid border border-slate-300	px-2 py-1">
               {date}
-            </span>
         </div>
           <button on:click={dispatchID} class="text-sky-500 text-[14px] flex align-center">
             <span>

@@ -14,12 +14,12 @@
 </script>
 
 <header class="border-b border-slate-200 px-12 py-6">
-  <div class="flex justify-between items-center">
+  <div class="flex justify-between items-center container mx-auto px-10">
     <div>
       <img width="150" src={$headerData[0].logo.split('static')[1]} alt="logo" />
     </div>
     <div class="justify-items-end">
-      <div class="text-sky-500 text-xl hidden lg:block">
+      <div class="text-sky-500 text-2xl hidden lg:block">
         {#each $headerData[0].links as item}
         <a target="_blank" href={item.link}>
             <i class={item.icon} />
