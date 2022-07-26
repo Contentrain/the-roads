@@ -1,4 +1,4 @@
-# Use Tempalte
+# Use Template
 
 To use the road map project powered by Contentrain [`use-template`](https://github.com/Contentrain/road-map-template/generate).
 
