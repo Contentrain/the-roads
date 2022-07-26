@@ -57,7 +57,7 @@
   </div>
   <div
     class={sidebar === true
-      ? "drop-shadow-2xl lg:drop-shadow-none bg-slate-50 p-4 lg:col-span-3 fixed right-0 z-50 w-[85%] lg:w-[25%] h-full overflow-y-scroll"
+      ? "drop-shadow-2xl lg:drop-shadow-none bg-slate-50 p-9 lg:col-span-3 fixed right-0 z-50 w-[85%] lg:w-[25%] h-full overflow-y-scroll"
       : "hidden"}
   >
     <div class="float-right">
@@ -97,7 +97,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-12">
+    <div class="mt-8">
       <div
         class="w-10 h-10 rounded-full bg-sky-500 text-white flex justify-center items-center text-xl"
       >
@@ -106,7 +106,7 @@
       <h1 class="text-lg text-slate-700 font-semibold mt-4">
         {sidebarData.title}
       </h1>
-      <p class="mt-4 text-slate-500 text-sm">
+      <p class="mt-2 text-slate-500 text-sm">
         {@html sidebarData.content.html}
       </p>
       <ul class="list-none mt-8">

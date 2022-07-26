@@ -13,13 +13,12 @@ import { createEventDispatcher } from "svelte";
     dispatch('ID', id);
   }
   const cardClasses = {
-    container: "border-solid border border-slate-200 rounded-2xl p-4 bg-white",
+    container: "w-full border-solid border border-slate-200 rounded-2xl p-8 bg-white",
     badge: "w-[36px] h-[36px] bg-sky-50 rounded-full text-sky-500 flex items-center justify-center",
     title: "font-semibold mt-4 text-slate-700 text-lg",
     content: "text-slate-500 text-[14px] mt-4 ellipsis-2",
 };
 </script>
-<div>
     <div class={cardClasses.container}>
       <div class={cardClasses.badge}>
       <i class={icon}></i>
@@ -42,4 +41,3 @@ import { createEventDispatcher } from "svelte";
           </button>
       </div>
     </div>
-  </div>

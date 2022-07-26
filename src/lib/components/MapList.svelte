@@ -63,7 +63,7 @@
   <select
     value={selected}
     on:change={updateActiveYear}
-    class="absolute right-[0px] border-2 border-slate-200 rounded-md p-2 bg-slate-100 z-50 hidden lg:block"
+    class="absolute right-[0px] border-2 border-slate-200 rounded-md px-4 py-2 bg-slate-100 z-50 hidden lg:block"
   >
     {#each $years as year}
       <option value={year}>{year}</option>

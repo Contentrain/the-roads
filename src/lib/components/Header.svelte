@@ -13,7 +13,7 @@
   };
 </script>
 
-<header class="border-b border-slate-200 px-[48px] py-[24px]">
+<header class="border-b border-slate-200 px-12 py-6">
   <div class="flex justify-between items-center">
     <div>
       <img width="150" src={$headerData[0].logo.split('static')[1]} alt="logo" />
