@@ -1,6 +1,6 @@
 # Use Tempalte
 
-To use the road map project powered by Contentrain [`use-template`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+To use the road map project powered by Contentrain [`use-template`](https://github.com/Contentrain/road-map-template/generate).
 
 ## Create Contentrain Project
 
@@ -10,7 +10,7 @@ Create a manual contentrain project to manage your project with contentrain. [`C
 
 ## Use Road Map models
 
-Switch to the "Community Collections" tab on the collections page during the installation phase and use the Roads model and the Header model
+Switch to the "Community Collections" tab on the collections page during the installation phase and use the "roads" model and the "header" model
 
 ## Building
 
@@ -23,3 +23,4 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+> To publish your project with [netlify](https://www.netlify.com/with/svelte/) 
