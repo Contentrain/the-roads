@@ -1,29 +1,16 @@
-# create-svelte
+# Use Tempalte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+To use the road map project powered by Contentrain [`use-template`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
+## Create Contentrain Project
 
-If you're seeing this, you've probably already done this step. Congrats!
+Create a manual contentrain project to manage your project with contentrain. [`Create project`](https://app.contentrain.io/projects?modal=create)
 
-```bash
-# create a new project in the current directory
-npm init svelte
+[![How can you do that ?](https://img.youtube.com/vi/hdpRGzn1GMI/0.jpg)](https://www.youtube.com/watch?v=hdpRGzn1GMI)
 
-# create a new project in my-app
-npm init svelte my-app
-```
+## Use Road Map models
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Switch to the "Community Collections" tab on the collections page during the installation phase and use the Roads model and the Header model
 
 ## Building
 
