@@ -41,9 +41,13 @@
       mapCards.forEach((x) => {
         const rect = x.getBoundingClientRect();
         if (rect.top > 0 && rect.top < 150) {
-          const location = window.location.toString().split('#')[0];
-          history.replaceState(null, null, location + '#' + x.getAttribute('hash'));
-          selected = x.getAttribute('hash');
+          const location = window.location.toString().split("#")[0];
+          history.replaceState(
+            null,
+            null,
+            location + "#" + x.getAttribute("hash")
+          );
+          selected = x.getAttribute("hash");
           activeYear.set(selected);
         }
       });
@@ -101,9 +105,15 @@
                     on:ID={changeSidebarData}
                   />
                   <div
-                    class="w-[16px] absolute h-[16px] bg-yellow-50 rounded-full lg:right-[-8px] lg:top-[47%] top-[-8px] flex items-center justify-center"
+                    class:bg-yellow-50={item.progress}
+                    class:bg-green-50={!item.progress}
+                    class="w-[16px] absolute h-[16px] rounded-full lg:right-[-8px] lg:top-[47%] top-[-8px] flex items-center justify-center"
                   >
-                    <div class="w-[8px] h-[8px] bg-yellow-500 rounded-full" />
+                    <div
+                      class:bg-yellow-500={item.progress}
+                      class:bg-green-500={!item.progress}
+                      class="w-[8px] h-[8px] rounded-full"
+                    />
                   </div>
                 </div>
               </div>
@@ -130,9 +140,15 @@
                     on:ID={changeSidebarData}
                   />
                   <div
-                    class="w-[16px] absolute h-[16px] bg-yellow-50 rounded-full lg:left-[-8px] lg:top-[47%] top-[-8px] flex items-center justify-center"
+                    class:bg-yellow-50={item.progress}
+                    class:bg-green-50={!item.progress}
+                    class="w-[16px] absolute h-[16px] rounded-full lg:left-[-8px] lg:top-[47%] top-[-8px] flex items-center justify-center"
                   >
-                    <div class="w-[8px] h-[8px] bg-yellow-500 rounded-full" />
+                    <div
+                      class:bg-yellow-500={item.progress}
+                      class:bg-green-500={!item.progress}
+                      class="w-[8px] h-[8px] rounded-full"
+                    />
                   </div>
                 </div>
               </div>
