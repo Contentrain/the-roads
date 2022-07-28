@@ -31,7 +31,7 @@ We will soon publish a video about how to use this template with Contentrain.
 
 
 ## Frontmatter
-#### Default
+#### Roads Default
 |variable|description|options|
 |-|-|-|
 |title|timeline başlığı |String|
@@ -44,14 +44,23 @@ We will soon publish a video about how to use this template with Contentrain.
 |type|timeline tipi (Feature, bug vs...). |String|
 |content|İçerik detayı kısmında gözükecek olan content. |String|
 
-#### Author Object
+#### Roads author Object
 |variable|description|options|
 |-|-|-|
 |name| Oluşturucu adı | String|
 |image| Oluşturucu fotoğrafı| String|
 |title| Oluşturucunun çalıştığı pozisyon | String|
 
+#### Header default
+|variable|description|options|
+|-|-|-|
+|logo| Proje logosu |Media string|
 
+#### Header links object
+|variable|description|options|
+|-|-|-|
+|icon| Sosyal medya icon ismi |String [Icons](https://remixicon.com/)|
+|link| Sosyal medya linki |Url|
 
 ## Setup
 
