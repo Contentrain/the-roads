@@ -69,24 +69,6 @@ import { sidebarStatus, activeMap } from "$lib/stores";
         <p class="mt-2 text-slate-500 text-sm">
           {@html sidebarData.content.html}
         </p>
-        <ul class="list-none mt-8">
-          {#each sidebarData.list as item}
-            <li class="flex items-start mt-4">
-              {#if item.check}
-                <div class="text-green-500 text-green-500 text-xl">
-                  <i class="ri-checkbox-circle-fill" />
-                </div>
-              {:else}
-                <div class="text-yellow-500 text-xl">
-                  <i class="ri-time-fill" />
-                </div>
-              {/if}
-              <p class="text-slate-500 ml-1">
-                {item.content}
-              </p>
-            </li>
-          {/each}
-        </ul>
         <div class="mt-8">
           <img
             class="w-full"

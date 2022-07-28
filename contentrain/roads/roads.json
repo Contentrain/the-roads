@@ -17,14 +17,6 @@
       "title": "Developer",
       "createdAt": 1658754854290
     },
-    "list": [
-      {
-        "ID": "d6a0973b-5176-40f6-ac06-5fe273555236",
-        "check": true,
-        "content": "Found",
-        "createdAt": 1658755220574
-      }
-    ],
     "createdAt": 1658754723866,
     "updatedAt": 1658756248196,
     "type": "Feature"
@@ -47,14 +39,6 @@
       "title": "developer",
       "createdAt": 1658755382377
     },
-    "list": [
-      {
-        "ID": "aaa974bd-e268-4fb3-8be0-90d7570c8b68",
-        "check": true,
-        "content": "mvp",
-        "createdAt": 1658755398961
-      }
-    ],
     "createdAt": 1658755317691,
     "updatedAt": 1658756256469,
     "type": "Feature"
@@ -77,14 +61,6 @@
       "title": "developer",
       "createdAt": 1658755595960
     },
-    "list": [
-      {
-        "ID": "a69bf7ef-2410-45a6-a483-47d7f094d99f",
-        "check": true,
-        "content": "private beta",
-        "createdAt": 1658755617782
-      }
-    ],
     "createdAt": 1658755573204,
     "type": "Feature",
     "updatedAt": 1658756319948
@@ -107,32 +83,6 @@
       "title": "Developer",
       "createdAt": 1658755925243
     },
-    "list": [
-      {
-        "ID": "c02249c5-3e68-46d1-89b9-a80a4963e38b",
-        "check": true,
-        "content": "Found",
-        "createdAt": 1658755939093
-      },
-      {
-        "ID": "0b03dcd3-6c26-44b1-b6a2-4062ac82ab7f",
-        "check": true,
-        "content": "mbp",
-        "createdAt": 1658755949677
-      },
-      {
-        "ID": "238296a0-9b3b-4089-8dc8-96278c20306a",
-        "check": true,
-        "content": "private beta",
-        "createdAt": 1658755960843
-      },
-      {
-        "ID": "7f2c5c73-56f3-4d09-976b-7992c17dca09",
-        "check": false,
-        "content": "live beta",
-        "createdAt": 1658755970735
-      }
-    ],
     "createdAt": 1658755894517,
     "type": "Feature",
     "updatedAt": 1658756290984
