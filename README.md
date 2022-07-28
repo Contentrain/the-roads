@@ -38,7 +38,6 @@ We will soon publish a video about how to use this template with Contentrain.
 |description|timeline açıklaması |String|
 |slug|Md dosyasına isim veren alan |String|
 |icon| Kart üzerinde gözükecek olan remix icon. |String [Icons](https://remixicon.com/)|
-|coverURL|İçerik detayında en altta gözükecek olan fotoğraf. |String media|
 |progress|Progress aşamasında olup olmadığını belirten alan.|Boolean true or false|
 |status|Şuanda bulunduğu aşama. |String|
 |date|Başlangıç tarihi. |String|
