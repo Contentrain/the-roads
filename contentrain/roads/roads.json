@@ -64,7 +64,7 @@
   },
   {
     "description": "2020 yılında kurulup beta sürüme çıkıldı. 2021 yılında kapalı beta sürümüne geçti. Daha sonra 2022 yılında açık betaya geçti\n\n",
-    "content": "Live Public Beta in 2022\n2020 yılında kurulup beta sürüme çıkıldı. 2021 yılında kapalı beta sürümüne geçti\n",
+    "content": "Live Public Beta in 2022\n2020 yılında kurulup beta sürüme çıkıldı. 2021 yılında kapalı beta sürümüne geçti\n![Banner](https://res.cloudinary.com/dowlbhxa2/image/upload/f_auto,q_auto,w_1366/v1648105518/Crud_section_optimized_y08wr2.svg)\nListe",
     "slug": "4",
     "title": "Live Public Beta in 2022",
     "ID": "34aa060c-51b2-47c2-9574-90bbedadd196",
@@ -81,6 +81,6 @@
     },
     "createdAt": 1658755894517,
     "type": "Feature",
-    "updatedAt": 1658756290984
+    "updatedAt": 1659017172274
   }
 ]
