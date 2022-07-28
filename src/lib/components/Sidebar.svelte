@@ -69,13 +69,6 @@ import { sidebarStatus, activeMap } from "$lib/stores";
         <p class="mt-2 text-slate-500 text-sm">
           {@html sidebarData.content.html}
         </p>
-        <div class="mt-8">
-          <img
-            class="w-full"
-            src={sidebarData.coverUrl.split("static")[1]}
-            alt="banner"
-          />
-        </div>
         <div class="mt-8 flex">
           <img
             class="rounded-full w-12 h-12 border-2 border-white	"
