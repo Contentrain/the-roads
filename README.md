@@ -3,9 +3,9 @@
 # Road map  [![Netlify Status](https://api.netlify.com/api/v1/badges/86ca144b-95be-4813-ae57-5d1ef8f23856/deploy-status)](https://app.netlify.com/sites/contentrain-road-map/deploys)
 
 
-A free Changelog template created with [**svelte 3.44.0 **](https://svelte.dev/) & [**Svelte Kit @next**](https://kit.svelte.dev/) that you can use for your projects.
+A free road map template created with [**svelte 3.44.0 **](https://svelte.dev/) & [**Svelte Kit @next**](https://kit.svelte.dev/) & [**remix icon **](https://remixicon.com/) & [**tailwind css **](https://tailwindcss.com//)  that you can use for your projects.
 
-We are very pleased to share our first free template. We hope Rain of Change will help anyone who needs to keep a Changelog for their projects.
+Ücretsiz şablonumuzu paylaşmaktan çok memnunuz. Bu template, yol haritasını paylaşmak isteyen herkese yardımcı olacağını umuyoruz.
 
 You can customize this template as you wish by copying it to your own repository and pulling it to your local.
 
@@ -34,29 +34,24 @@ We will soon publish a video about how to use this template with Contentrain.
 #### Default
 |variable|description|options|
 |-|-|-|
-|title|It title your map data |String|
-|description|It description your map data |String|
-|slug|It gives your md file its name |String|
-|icon|Allows you to select the icon that is suitable for your map data. |String [Icons](https://remixicon.com/)|
-|coverURL|Media content appearing in details. |String media|
-|progress|The map shows that your data continues to progress.|Boolean true or false|
-|status|Indicates the current state of your map data. |String|
-|date|Specifies the start date of your map data. |String|
-|type|Specifies the type of your map data. |String|
-|content|Content of your map data. |String|
+|title|timeline başlığı |String|
+|description|timeline açıklaması |String|
+|slug|Md dosyasına isim veren alan |String|
+|icon| Kart üzerinde gözükecek olan remix icon. |String [Icons](https://remixicon.com/)|
+|coverURL|İçerik detayında en altta gözükecek olan fotoğraf. |String media|
+|progress|Progress aşamasında olup olmadığını belirten alan.|Boolean true or false|
+|status|Şuanda bulunduğu aşama. |String|
+|date|Başlangıç tarihi. |String|
+|type|timeline tipi (Feature, bug vs...). |String|
+|content|İçerik detayı kısmında gözükecek olan content. |String|
 
 #### Author Object
 |variable|description|options|
 |-|-|-|
-|name| Author name of your map data| String|
-|image| Author photo of your map data| String|
-|title| Author position title of your map data| String|
+|name| Oluşturucu adı | String|
+|image| Oluşturucu fotoğrafı| String|
+|title| Oluşturucunun çalıştığı pozisyon | String|
 
-#### List Object
-|variable|description|options|
-|-|-|-|
-|check| Indicates whether the phase is in progress.| Boolean true or false|
-|content| Content of your list data| String|
 
 
 ## Setup
