@@ -3,7 +3,7 @@
 # Road map  [![Netlify Status](https://api.netlify.com/api/v1/badges/86ca144b-95be-4813-ae57-5d1ef8f23856/deploy-status)](https://app.netlify.com/sites/contentrain-road-map/deploys)
 
 
-A free road map template created with [**svelte 3.44.0 **](https://svelte.dev/) & [**Svelte Kit @next**](https://kit.svelte.dev/) & [**remix icon **](https://remixicon.com/) & [**tailwind css **](https://tailwindcss.com//)  that you can use for your projects.
+A free road map template created with [Svelte 3.44.0](https://svelte.dev/) & [Svelte Kit @next](https://kit.svelte.dev/) & [remix icon](https://remixicon.com/) & [tailwind css](https://tailwindcss.com//)  that you can use for your projects.
 
 Ücretsiz şablonumuzu paylaşmaktan çok memnunuz. Bu template, yol haritasını paylaşmak isteyen herkese yardımcı olacağını umuyoruz.
 
