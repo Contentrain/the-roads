@@ -1,11 +1,10 @@
 [![Road map](https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/d524cef2-ba62-492f-6f7a-acd55ea3df00/public)](https://change-log-red.vercel.app/)
 
-# Road map  [![Netlify Status](https://api.netlify.com/api/v1/badges/86ca144b-95be-4813-ae57-5d1ef8f23856/deploy-status)](https://app.netlify.com/sites/contentrain-road-map/deploys)
+# The Roads 
 
+A free road map template that was created with [Svelte](https://svelte.dev/) & [Svelte Kit](https://kit.svelte.dev/) & [Tailwind CSS](https://tailwindcss.com//) & [Remixicon](https://remixicon.com/) that you can use for your projects.
 
-A free road map template created with [Svelte 3.44.0](https://svelte.dev/) & [Svelte Kit @next](https://kit.svelte.dev/) & [remix icon](https://remixicon.com/) & [tailwind css](https://tailwindcss.com//)  that you can use for your projects.
-
-Ücretsiz şablonumuzu paylaşmaktan çok memnunuz. Bu template, yol haritasını paylaşmak isteyen herkese yardımcı olacağını umuyoruz.
+We are very pleased to share another free template with the community. We hope The Roads template will help anyone who needs a road map for their projects.
 
 You can customize this template as you wish by copying it to your own repository and pulling it to your local.
 
@@ -15,52 +14,49 @@ You can customize this template as you wish by copying it to your own repository
 [![Use with Contentrain](https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/721c176e-f4b1-4495-1d6c-87a4b9ffa100/public)](https://app.contentrain.io)
 
 
-To manage the content of this template, we recommend you use [**Contentrain**](Contentrain).
+To manage the content of this template, we recommend you use [**Contentrain**](https://contentrain.io).
 
 We have created the collection template that you need. You can find and use this collection in “Community Collections”.
 
-After free registration with [Contentrain](**Contentrain**), you need to start a manual project installation and continue the installation by selecting the Rain of Change repo on Github.
+After free registration with [**Contentrain**](https://contentrain.io), you need to start a manual project installation and continue the installation by selecting the Rain of Change repo on Github.
 
 During the installation, it is enough to delete the sample collections in the Collections step, select the Logs collection from the Community Collections section and complete the installation.
 
-This way you can easily manage all your logs with Contentrain.
+This way you can easily manage all your content with Contentrain.
 
-If you have any question with the installation, you can send us your questions via [Discord](**Discord**).
-
-We will soon publish a video about how to use this template with Contentrain.
+If you have any questions about the installation, you can send us your questions via [**Discord**](https://discord.gg/4db2PjWYtG).
 
 
 ## Frontmatter
 #### Roads Default
 |variable|description|options|
 |-|-|-|
-|title|timeline başlığı |String|
-|description|timeline açıklaması |String|
-|slug|Md dosyasına isim veren alan |String|
-|icon| Kart üzerinde gözükecek olan remix icon. |String [Icons](https://remixicon.com/)|
-|progress|Progress aşamasında olup olmadığını belirten alan.|Boolean true or false|
-|status|Şuanda bulunduğu aşama. |String|
-|date|Başlangıç tarihi. |String|
-|type|timeline tipi (Feature, bug vs...). |String|
-|content|İçerik detayı kısmında gözükecek olan content. |String|
+|title|Timeline title |String|
+|description|Timeline description |String|
+|slug|MD file name |String|
+|icon| The icon on the card |String [Icons](https://remixicon.com/)|
+|progress|The progress state |Boolean|
+|date| Starting date |String|
+|type| Timeline type  |String|
+|content| Timeline card content |String|
 
 #### Roads author Object
 |variable|description|options|
 |-|-|-|
-|name| Oluşturucu adı | String|
-|image| Oluşturucu fotoğrafı| String|
-|title| Oluşturucunun çalıştığı pozisyon | String|
+|name| Author name | String|
+|image| Author image| String|
+|title| Author job description | String|
 
 #### Header default
 |variable|description|options|
 |-|-|-|
-|logo| Proje logosu |Media string|
+|logo| Project logo |string|
 
 #### Header links object
 |variable|description|options|
 |-|-|-|
-|icon| Sosyal medya icon ismi |String [Icons](https://remixicon.com/)|
-|link| Sosyal medya linki |Url|
+|icon| Social media icon |String [Icons](https://remixicon.com/)|
+|link| Social media url |Url|
 
 ## Setup
 
@@ -95,7 +91,7 @@ Pre-render the website to be deployed on any static hosting:
 npm run build
 ```
 
-The `build/` directory is ready to be deploye, [learn more on Svelte docs](https://kit.svelte.dev/docs/adapters#supported-environments-static-sites).
+The `build/` directory is ready to be deployed, [learn more on Svelte docs](https://kit.svelte.dev/docs/adapters#supported-environments-static-sites).
 
 ### Node server
 
