@@ -1,6 +1,6 @@
 [![Road map](https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/d524cef2-ba62-492f-6f7a-acd55ea3df00/public)](https://change-log-red.vercel.app/)
 
-# The Roads 
+# The Roads [![Netlify Status](https://api.netlify.com/api/v1/badges/2ac7f365-d2c9-4174-9814-9e5e6361f1fc/deploy-status)](https://app.netlify.com/sites/contentrain-the-roads/deploys)
 
 A free road map template that was created with [Svelte](https://svelte.dev/) & [Svelte Kit](https://kit.svelte.dev/) & [Tailwind CSS](https://tailwindcss.com//) & [Remixicon](https://remixicon.com/) that you can use for your projects.
 
