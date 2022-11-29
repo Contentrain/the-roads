@@ -8,7 +8,7 @@ We are very pleased to share another free template with the community. We hope T
 
 You can customize this template as you wish by copying it to your own repository and pulling it to your local.
 
-[Live Preview](https://contentrain-road-map.netlify.app/)
+[Live Preview](https://contentrain-the-roads.netlify.app/)
 
 ## Headless CMS
 [![Use with Contentrain](https://imagedelivery.net/yx26LyQGM_miwnGU8RnEaw/721c176e-f4b1-4495-1d6c-87a4b9ffa100/public)](https://app.contentrain.io)
